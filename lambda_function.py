@@ -1,7 +1,7 @@
 import json
 
 def lambda_handler(event, context):
-    body = "Hello World!"
+    body = "Welcome to AWS Complete Bootcamp!"
     statusCode = 200
     return {
         "statusCode": statusCode,
